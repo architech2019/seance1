@@ -1,0 +1,16 @@
+.m{
+    margin: 10px;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.card, img {
+    border-radius: 15px;
+}
+
+.card {
+    box-shadow: 4px 4px 2px 0 #ddd;
+
+}
