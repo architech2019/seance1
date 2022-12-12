@@ -1,0 +1,28 @@
+.logo img{
+    width: 150px;
+}
+
+.p-2{
+    padding: 10px;
+}
+
+.menu .menu-item {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.menu .menu-item i {
+    margin-right: 10px;
+}
+.menu h3 {
+    text-transform: uppercase;
+}
+
+.text-gray {
+    color : rgb(65, 64, 64)
+}
+
+.bg-danger {
+    background-color: red;
+}

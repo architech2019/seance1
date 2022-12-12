@@ -8,9 +8,20 @@
 
 .card, img {
     border-radius: 15px;
+    width: 100%;
+
 }
 
 .card {
     box-shadow: 4px 4px 2px 0 #ddd;
+    width: 150px;
 
+}
+
+button {
+    background-color: green;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
 }

@@ -9,6 +9,18 @@
 .grid {
   display: grid;
 }
-.col-3 {
-  grid-template-columns: 33% 33% 33%;
+.grid-cols-3 {
+  grid-template-columns: 20% 60% 20%;
+}
+
+.w-full {
+  width: auto;
+
+}
+
+.items {
+}
+
+.col-3{
+  grid-template-columns: 25% 25% 25% 25%;
 }

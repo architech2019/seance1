@@ -1,9 +1,7 @@
 import "../styles/BookItem.css"
 
+function BookItem({book, cart, setCart}){
 
-function BookItem(props){
-
-    const {book} = props
     return(
         <div className="card m bg-white">
             <div>
@@ -13,6 +11,8 @@ function BookItem(props){
                 <h3>{book.name}</h3>
                 <div>{book.price}</div>
             </div>
+
+            <button onClick={() => setCart([...cart, book])}>buy</button>
         </div>
     )
 }
